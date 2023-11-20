@@ -155,7 +155,7 @@ func (c *Client) ReConn() {
 	c.apiHandler.ReConn()
 }
 
-func (c *Client) APIHandler() *APIHandler {
+func (c *Client) ApiHandler() *APIHandler {
 	return c.apiHandler
 }
 

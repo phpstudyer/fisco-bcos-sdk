@@ -21,7 +21,6 @@ import (
 	"crypto/ecdsa"
 	"encoding/json"
 	"errors"
-	"fmt"
 	"strconv"
 	"strings"
 	"sync/atomic"
@@ -250,7 +249,6 @@ func (c *Connection) CallContext(ctx context.Context, result interface{}, method
 	if err != nil {
 		return err
 	}
-	fmt.Printf("%+v \n", msg)
 	op := &requestOp{ids: []json.RawMessage{msg.ID}, resp: make(chan *jsonrpcMessage, 1)}
 
 	if c.isHTTP {
