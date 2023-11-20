@@ -155,6 +155,10 @@ func (c *Client) ReConn() {
 	c.apiHandler.ReConn()
 }
 
+func (c *Client) APIHandler() *APIHandler {
+	return c.apiHandler
+}
+
 // ============================================== FISCO BCOS Blockchain Access ================================================
 
 // GetTransactOpts return *bind.TransactOpts
@@ -268,7 +272,6 @@ func (c *Client) SubscribeEventLogs(eventLogParams types.EventLogParams, handler
 func (c *Client) UnSubscribeEventLogs(filterID string) error {
 	return c.apiHandler.UnSubscribeEventLogs(filterID)
 }
-
 
 func (c *Client) SubscribeTopic(topic string, handler func([]byte, *[]byte)) error {
 	return c.apiHandler.SubscribeTopic(topic, handler)
