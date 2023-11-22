@@ -8,7 +8,7 @@ import (
 
 	"github.com/FISCO-BCOS/crypto/ecdsa"
 	"github.com/FISCO-BCOS/crypto/elliptic"
-	"github.com/FISCO-BCOS/go-sdk/smcrypto/sm3"
+	"github.com/phpstudyer/fisco-bcos-sdk/smcrypto/sm3"
 	"github.com/sirupsen/logrus"
 )
 

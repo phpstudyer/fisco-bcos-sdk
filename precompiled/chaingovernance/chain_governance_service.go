@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/FISCO-BCOS/go-sdk/abi/bind"
-	"github.com/FISCO-BCOS/go-sdk/client"
-	"github.com/FISCO-BCOS/go-sdk/core/types"
-	"github.com/FISCO-BCOS/go-sdk/precompiled"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi/bind"
+	"github.com/phpstudyer/fisco-bcos-sdk/client"
+	"github.com/phpstudyer/fisco-bcos-sdk/core/types"
+	"github.com/phpstudyer/fisco-bcos-sdk/precompiled"
 	"github.com/ethereum/go-ethereum/common"
 )
 

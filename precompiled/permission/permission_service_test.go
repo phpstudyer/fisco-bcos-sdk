@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	helloworld "github.com/FISCO-BCOS/go-sdk/.ci/hello"
-	"github.com/FISCO-BCOS/go-sdk/client"
-	"github.com/FISCO-BCOS/go-sdk/conf"
-	"github.com/FISCO-BCOS/go-sdk/precompiled/crud"
+	helloworld "github.com/phpstudyer/fisco-bcos-sdk/.ci/hello"
+	"github.com/phpstudyer/fisco-bcos-sdk/client"
+	"github.com/phpstudyer/fisco-bcos-sdk/conf"
+	"github.com/phpstudyer/fisco-bcos-sdk/precompiled/crud"
 	"github.com/ethereum/go-ethereum/common"
 )
 

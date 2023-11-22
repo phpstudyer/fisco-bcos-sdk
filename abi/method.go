@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/FISCO-BCOS/go-sdk/smcrypto/sm3"
+	"github.com/phpstudyer/fisco-bcos-sdk/smcrypto/sm3"
 	"github.com/ethereum/go-ethereum/crypto"
 )
 

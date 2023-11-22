@@ -1,4 +1,4 @@
-module github.com/FISCO-BCOS/go-sdk
+module github.com/phpstudyer/fisco-bcos-sdk
 
 go 1.19
 

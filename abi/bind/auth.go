@@ -22,8 +22,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/FISCO-BCOS/go-sdk/core/types"
-	"github.com/FISCO-BCOS/go-sdk/smcrypto"
+	"github.com/phpstudyer/fisco-bcos-sdk/core/types"
+	"github.com/phpstudyer/fisco-bcos-sdk/smcrypto"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/ethereum/go-ethereum/common"

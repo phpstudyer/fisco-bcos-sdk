@@ -30,7 +30,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/FISCO-BCOS/go-sdk/abi"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/FISCO-BCOS/go-sdk/cmd/commandline"
+	"github.com/phpstudyer/fisco-bcos-sdk/cmd/commandline"
 )
 
 func main() {

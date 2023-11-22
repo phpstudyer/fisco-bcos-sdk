@@ -24,8 +24,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/FISCO-BCOS/go-sdk/abi"
-	"github.com/FISCO-BCOS/go-sdk/core/types"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi"
+	"github.com/phpstudyer/fisco-bcos-sdk/core/types"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 )

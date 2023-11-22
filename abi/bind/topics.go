@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/FISCO-BCOS/go-sdk/abi"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

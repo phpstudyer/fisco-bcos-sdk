@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/FISCO-BCOS/go-sdk/abi"
+import "github.com/phpstudyer/fisco-bcos-sdk/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -90,9 +90,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/FISCO-BCOS/go-sdk/abi"
-	"github.com/FISCO-BCOS/go-sdk/abi/bind"
-	"github.com/FISCO-BCOS/go-sdk/core/types"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi/bind"
+	"github.com/phpstudyer/fisco-bcos-sdk/core/types"
 	ethereum "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 )

@@ -13,10 +13,10 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/FISCO-BCOS/go-sdk/abi"
-	"github.com/FISCO-BCOS/go-sdk/abi/bind"
-	"github.com/FISCO-BCOS/go-sdk/conf"
-	"github.com/FISCO-BCOS/go-sdk/core/types"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi/bind"
+	"github.com/phpstudyer/fisco-bcos-sdk/conf"
+	"github.com/phpstudyer/fisco-bcos-sdk/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )
@@ -475,7 +475,7 @@ func stringToInterface(paramType string, value interface{}) (interface{}, error)
 			aField := reflect.StructField{
 				Name:    k,
 				Type:    reflect.TypeOf(p),
-				PkgPath: "github.com/FISCO-BCOS/go-sdk/mobile/ios",
+				PkgPath: "github.com/phpstudyer/fisco-bcos-sdk/mobile/ios",
 			}
 			fields = append(fields, aField)
 			i++

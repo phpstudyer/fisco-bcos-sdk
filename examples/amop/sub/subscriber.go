@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FISCO-BCOS/go-sdk/client"
-	"github.com/FISCO-BCOS/go-sdk/conf"
+	"github.com/phpstudyer/fisco-bcos-sdk/client"
+	"github.com/phpstudyer/fisco-bcos-sdk/conf"
 	"github.com/sirupsen/logrus"
 )
 

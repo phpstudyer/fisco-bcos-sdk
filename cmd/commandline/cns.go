@@ -3,7 +3,7 @@ package commandline
 import (
 	"fmt"
 
-	"github.com/FISCO-BCOS/go-sdk/precompiled/cns"
+	"github.com/phpstudyer/fisco-bcos-sdk/precompiled/cns"
 	"github.com/spf13/cobra"
 )
 

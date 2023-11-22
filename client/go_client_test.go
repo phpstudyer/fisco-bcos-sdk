@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FISCO-BCOS/go-sdk/abi"
-	"github.com/FISCO-BCOS/go-sdk/abi/bind"
-	"github.com/FISCO-BCOS/go-sdk/conf"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi"
+	"github.com/phpstudyer/fisco-bcos-sdk/abi/bind"
+	"github.com/phpstudyer/fisco-bcos-sdk/conf"
 	"github.com/ethereum/go-ethereum/common"
 )
 

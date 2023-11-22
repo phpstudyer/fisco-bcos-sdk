@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FISCO-BCOS/go-sdk/client"
-	"github.com/FISCO-BCOS/go-sdk/conf"
-	"github.com/FISCO-BCOS/go-sdk/core/types"
-	"github.com/FISCO-BCOS/go-sdk/precompiled"
+	"github.com/phpstudyer/fisco-bcos-sdk/client"
+	"github.com/phpstudyer/fisco-bcos-sdk/conf"
+	"github.com/phpstudyer/fisco-bcos-sdk/core/types"
+	"github.com/phpstudyer/fisco-bcos-sdk/precompiled"
 )
 
 const (

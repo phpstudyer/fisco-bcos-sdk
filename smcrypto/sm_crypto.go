@@ -12,7 +12,7 @@ import (
 	"github.com/FISCO-BCOS/crypto/ecdsa"
 	"github.com/FISCO-BCOS/crypto/elliptic"
 	"github.com/FISCO-BCOS/crypto/x509"
-	"github.com/FISCO-BCOS/go-sdk/smcrypto/sm3"
+	"github.com/phpstudyer/fisco-bcos-sdk/smcrypto/sm3"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/sirupsen/logrus"
 )

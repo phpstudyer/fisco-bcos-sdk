@@ -3,7 +3,7 @@ package commandline
 import (
 	"fmt"
 
-	"github.com/FISCO-BCOS/go-sdk/precompiled/contractlifecycle"
+	"github.com/phpstudyer/fisco-bcos-sdk/precompiled/contractlifecycle"
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/spf13/cobra"
